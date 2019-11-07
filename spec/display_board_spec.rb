@@ -162,14 +162,14 @@ describe "#display_board in 'lib/display_board.rb" do
       # Uncomment the following lines of code by removing the # at line start.
       # Then edit the following lines to represent a board entirely filled with X.
       # Remember, every space and every character is important.
-
+ 
       # *** Edit the lines below ***
       # *** Uncomment the lines below ***
-      # expect(rows[0]).to eq("   |   |   ")
-      # expect(rows[1]).to eq("-----------")
-      # expect(rows[2]).to eq("   |   |   ")
-      # expect(rows[3]).to eq("-----------")
-      # expect(rows[4]).to eq("   |   |   ")
+      expect(rows[0]).to eq(" X |   |   ")
+      expect(rows[1]).to eq("-----------")
+      expect(rows[2]).to eq("   |   |   ")
+      expect(rows[3]).to eq("-----------")
+      expect(rows[4]).to eq("   |   |   ")
 
       # *** Comment the line below by adding a # at the line start ***
       expect(true).to be(true)
